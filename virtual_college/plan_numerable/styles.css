@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f8f9fa;
+}
+
+.image-container {
+    position: relative;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.grid-cell {
+    position: absolute;
+    border: 1px solid rgba(255, 0, 0, 0.5); /* Красная сетка */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: #fff; /* Цвет текста */
+    background-color: rgba(0, 0, 0, 0.5); /* Тень ячейки */
+}
